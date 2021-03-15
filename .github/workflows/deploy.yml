@@ -22,7 +22,7 @@ jobs:
       - name: Build Jigsaw
         uses: docker://php:7.4
         with:
-          args: php vendor/bin/Jigsaw build
+          args: php vendor/bin/jigsaw build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
